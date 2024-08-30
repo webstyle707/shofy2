@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .path-animation {
+    stroke-dasharray: 3 3;
+    stroke-dashoffset: 0;
+    animation: dash 100s linear infinite;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  }

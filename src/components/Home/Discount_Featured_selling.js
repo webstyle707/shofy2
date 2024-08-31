@@ -67,7 +67,7 @@ function DiscountFeaturedSelling(props) {
                         </div>
                       </div>
 
-                      <div className='text-[#0989FF] font-semibold'>${e.price - e.discount}</div>
+                      <div className='text-[#0989FF] font-semibold'>${(e.price - e.discount).toFixed(2)}</div>
                     </div>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ function DiscountFeaturedSelling(props) {
                         </div>
                       </div>
 
-                      <div className='text-[#0989FF] font-semibold'>${e.price - e.discount}</div>
+                      <div className='text-[#0989FF] font-semibold'>${(e.price - e.discount).toFixed(2)}</div>
                     </div>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ function DiscountFeaturedSelling(props) {
                         </div>
                       </div>
 
-                      <div className='text-[#0989FF] font-semibold'>${e.price - e.discount}</div>
+                      <div className='text-[#0989FF] font-semibold'>${(e.price - e.discount).toFixed(2)}</div>
                     </div>
                   </div>
                 </div>

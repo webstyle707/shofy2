@@ -10,7 +10,7 @@ function Services() {
                     <Image className='w-[33px] h-[27px]' src="/Assets/car1.png" height={500} width={500} alt="" />
                 </div>
                 <div>
-                    <h1 className='font-semibold text-lg'>Free Delivary</h1>
+                    <h1 className='font-semibold lg:text-lg'>Free Delivary</h1>
                     <p className='text-sm text-gray-700'>Orders from all item</p>
                 </div>
             </div>
@@ -20,7 +20,7 @@ function Services() {
                     <Image className='w-[21px] h-[35px]' src="/Assets/$.png" height={500} width={500} alt="" />
                 </div>
                 <div>
-                    <h1 className='font-semibold text-lg'>Return & Refunf</h1>
+                    <h1 className='font-semibold lg:text-lg'>Return & Refunf</h1>
                     <p className='text-sm text-gray-700'>Maney back guarantee</p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ function Services() {
                     <Image className='w-[31px] h-[30px]' src="/Assets/discount.png" height={500} width={500} alt="" />
                 </div>
                 <div>
-                    <h1 className='font-semibold text-lg'>Member Discount</h1>
+                    <h1 className='font-semibold lg:text-lg'>Member Discount</h1>
                     <p className='text-sm text-gray-700'>One very order over $140.00</p>
                 </div>
             </div>
@@ -40,7 +40,7 @@ function Services() {
                     <Image className='w-[31px] h-[30px]' src="/Assets/car1.png" height={500} width={500} alt="" />
                 </div>
                 <div>
-                    <h1 className='font-semibold text-lg'>Support 24/7</h1>
+                    <h1 className='font-semibold lg:text-lg'>Support 24/7</h1>
                     <p className='text-sm text-gray-700'>Contact us 24 hours a day</p>
                 </div>
             </div>

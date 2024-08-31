@@ -115,7 +115,7 @@ export default function Home() {
               </div>
 
               <div className="pt-3.5">
-                <button onMouseEnter={handlehover} onMouseLeave={handlehover} className="flex items-center text-gray-700 hover:text-gray-900 transition-all duration-500">
+                <button onMouseEnter={handlehover} onMouseLeave={handlehover} className="select-none flex items-center text-gray-700 hover:text-gray-900 transition-all duration-500">
                   <p className="text-sm font-semibold">Shop Now</p>
                   <IoIosArrowRoundForward className={`text-3xl transition-all duration-500 ${ishover?"translate-x-1":"translate-x-0"}`} />
                 </button>
@@ -136,7 +136,7 @@ export default function Home() {
               <p className="text-gray-800 font-semibold">Sale 20% off</p>
 
               <div className="pt-3.5">
-                <button onMouseEnter={handlehover2} onMouseLeave={handlehover2} className="flex items-center text-gray-700 hover:text-gray-900 transition-all duration-500">
+                <button onMouseEnter={handlehover2} onMouseLeave={handlehover2} className="select-none flex items-center text-gray-700 hover:text-gray-900 transition-all duration-500">
                   <p className="text-sm font-semibold">Shop Now</p>
                   <IoIosArrowRoundForward className={`text-3xl transition-all duration-500 ${ishover2?"translate-x-1":"translate-x-0"}`} />
                 </button>
@@ -181,7 +181,7 @@ export default function Home() {
                 </div>
 
                 <div className="pt-2">
-                  <button className="flex items-center space-x-1 text-gray-800 group text-xs font-semibold">
+                  <button className="select-none flex items-center space-x-1 text-gray-800 group text-xs font-semibold">
                     <p>More Products</p>
                     <HiOutlineArrowRight className=" group-hover:translate-x-1 transition-all duration-300 text-lg"/>
                   </button>
@@ -226,14 +226,3 @@ export default function Home() {
    </div>
   );
 }
-
-
-// import React from 'react'
-
-// function page() {
-//   return (
-//     <div>page</div>
-//   )
-// }
-
-// export default page

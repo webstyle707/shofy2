@@ -125,31 +125,31 @@ function SliderCards({ DataDealoftheDay }) {
 
                   <div>
                     {e.discount <= 0 ? 
-                      <div className='text-[#0989FF] font-semibold'>${e.price}</div> :
+                      <div className='text-[#0989FF] font-semibold'>${e.price.toFixed(2)}</div> :
                       <div className='flex items-center space-x-1'>
                         <div className='text-xs font-semibold text-gray-600 line-through'>${e.price}</div>
-                        <div className='text-[#0989FF] font-semibold'>${e.price - e.discount}</div>
+                        <div className='text-[#0989FF] font-semibold'>${(e.price - e.discount).toFixed(2)}</div>
                       </div>
                     }
                   </div>
 
                   <div className='*:uppercase flex items-center space-x-1 pt-5'>
-                    <button className="border rounded px-3.5 py-1 -space-y-0.5">
+                    <button className=" outline-none border rounded px-3.5 py-1 -space-y-0.5">
                       <p className='text-[16px] font-bold text-gray-700'>{timeLeftMap[e.id]?.days || 0}</p>
                       <p className='text-[10px] font-semibold text-gray-700'>day</p>
                     </button>
 
-                    <button className="border rounded px-3.5 py-1 -space-y-0.5">
+                    <button className=" outline-none border rounded px-3.5 py-1 -space-y-0.5">
                       <p className='text-[16px] font-bold text-gray-700'>{timeLeftMap[e.id]?.hours || 0}</p>
                       <p className='text-[10px] font-semibold text-gray-700'>hrs</p>
                     </button>
 
-                    <button className="border rounded px-3.5 py-1 -space-y-0.5">
+                    <button className=" outline-none border rounded px-3.5 py-1 -space-y-0.5">
                       <p className='text-[16px] font-bold text-gray-700'>{timeLeftMap[e.id]?.minutes || 0}</p>
                       <p className='text-[10px] font-semibold text-gray-700'>min</p>
                     </button>
 
-                    <button className="border rounded px-3.5 py-1 -space-y-0.5">
+                    <button className=" outline-none border rounded px-3.5 py-1 -space-y-0.5">
                       <div className='text-[16px] font-bold text-gray-700'>{timeLeftMap[e.id]?.seconds || 0}</div>
                       <p className='text-[10px] font-semibold text-gray-700'>sec</p>
                     </button>

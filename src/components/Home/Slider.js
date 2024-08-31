@@ -51,7 +51,7 @@ export default function Slider() {
                   </div>
 
                   <div className='text-start pt-4'>
-                    <button className='z-10 sticky flex items-center justify-center rounded-md space-x-1 shadow border-white border hover:text-white transition-all duration-300 hover:bg-[#115061]  text-gray-800 font-semibold bg-white h-[46px] w-[144.38px]'>
+                    <button className='select-none z-10 sticky flex items-center justify-center rounded-md space-x-1 shadow border-white border hover:text-white transition-all duration-300 hover:bg-[#115061]  text-gray-800 font-semibold bg-white h-[46px] w-[144.38px]'>
                       <p className='text-sm'>Shop Now</p>
                       <p>
                         <FaArrowRightLong/>
@@ -103,7 +103,7 @@ export default function Slider() {
                   </div>
 
                   <div className='text-start pt-4'>
-                    <button className='z-10 sticky flex items-center justify-center rounded-md space-x-1 shadow border-white border hover:text-white transition-all duration-300 hover:bg-[#115061]  text-gray-800 font-semibold bg-white h-[46px] w-[144.38px]'>
+                    <button className='select-none z-10 sticky flex items-center justify-center rounded-md space-x-1 shadow border-white border hover:text-white transition-all duration-300 hover:bg-[#115061]  text-gray-800 font-semibold bg-white h-[46px] w-[144.38px]'>
                       <p className='text-sm'>Shop Now</p>
                       <p>
                         <FaArrowRightLong/>
@@ -157,7 +157,7 @@ export default function Slider() {
                   </div>
 
                   <div className='text-start pt-4'>
-                    <button className='z-10 sticky flex items-center justify-center rounded-md space-x-1 shadow border-white border hover:border-[#0989FF] hover:text-white transition-all duration-300 hover:bg-[#0989FF]  text-gray-800 font-semibold bg-white h-[46px] w-[144.38px]'>
+                    <button className='select-none z-10 sticky flex items-center justify-center rounded-md space-x-1 shadow border-white border hover:border-[#0989FF] hover:text-white transition-all duration-300 hover:bg-[#0989FF]  text-gray-800 font-semibold bg-white h-[46px] w-[144.38px]'>
                       <p className='text-sm'>Shop Now</p>
                       <p>
                         <FaArrowRightLong/>
@@ -188,11 +188,11 @@ export default function Slider() {
         </SwiperSlide>
 
 
-        <div className="custom-prev absolute left-5 hover:bg-white hover:border-white hover:text-gray-800 top-1/2 -translate-x-32 group-hover:translate-x-0 text-white transform -translate-y-1/2 z-10 cursor-pointer border border-gray-400 rounded-full p-2.5 transition-all duration-500">
+        <div className="custom-prev select-none absolute left-5 hover:bg-white hover:border-white hover:text-gray-800 top-1/2 -translate-x-32 group-hover:translate-x-0 text-white transform -translate-y-1/2 z-10 cursor-pointer border border-gray-400 rounded-full p-2.5 transition-all duration-500">
           <SlArrowLeft className='text-lg'/>
         </div>
 
-        <div className="custom-next absolute right-5 hover:bg-white hover:border-white hover:text-gray-800 top-1/2 translate-x-32 group-hover:translate-x-0 text-white transform -translate-y-1/2 z-10 cursor-pointer border border-gray-400 rounded-full p-2.5 transition-all duration-500">
+        <div className="custom-next select-none absolute right-5 hover:bg-white hover:border-white hover:text-gray-800 top-1/2 translate-x-32 group-hover:translate-x-0 text-white transform -translate-y-1/2 z-10 cursor-pointer border border-gray-400 rounded-full p-2.5 transition-all duration-500">
           <SlArrowRight className='text-lg'/>
         </div>
       </Swiper>

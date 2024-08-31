@@ -58,8 +58,8 @@ function Header() {
   }, []);
   
   return (
-    <div>
-      <div className={`bg-white w-full fixed left-0 z-30 top-0 -translate-y-28 
+    <div className=''>
+      <div className={`bg-white w-full fixed left-0 z-40 top-0 -translate-y-28 
         ${scrollY >= 250?"transition-all duration-300 top-0 translate-y-0":"transition-all duration-300 -translate-y-28"}`}>
          <Chilheader/>
          <ChildSmHeader/>
@@ -108,6 +108,7 @@ function Header() {
             </div>
           </div>
         </div>
+
         <div className='hidden lg:block h-[104px] border-b border-gray-200'>
           <div className='max-w-[1320px] mx-auto flex items-center justify-between h-full 2xl:px-3 xl:px-20 px-10'>
             <div className=''>
@@ -177,6 +178,7 @@ function Header() {
             </div>
           </div>
         </div>
+
         <div className='hidden lg:block shadow-md'>
           <div className='2xl:px-3 xl:px-20 px-10 max-w-[1320px] h-[50px] mx-auto flex items-center justify-between'>
               <div className='h-full flex items-center'>

@@ -14,7 +14,7 @@ function DealoftheDay() {
                 <div className="flex items-center 2xl:space-x-16 xl:space-x-12 md:space-x-8">
                     <div className="2xl:w-[680px] xl:w-[520px] lg:w-[450px] hidden md:block w-[240px] border-b-2 border-white"></div>
                     <div className="flex items-center">
-                        <button className='bg-[#0989FF] hover:bg-gray-900 transition-all duration-500 rounded-md md:px-[15px] px-[10px] md:py-[9px] py-[7px] text-base font-semibold text-gray-50 flex items-center justify-center space-x-0.5'>
+                        <button className='select-none bg-[#0989FF] hover:bg-gray-900 transition-all duration-500 rounded-md md:px-[15px] px-[10px] md:py-[9px] py-[7px] text-base font-semibold text-gray-50 flex items-center justify-center space-x-0.5'>
                             <p>View All Deals</p>
                             <IoArrowForwardSharp className='text-xl'/>
                         </button>

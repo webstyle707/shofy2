@@ -17,14 +17,14 @@ function LatestNewsandArticles() {
         <div className='xl:px-2'>
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-between space-y-2 md:space-y-0">
                 <div>
-                    <h1 className="text-center font-semibold 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-2xl text-2xl  text-gray-900">
+                    <h1 className="select-none text-center font-semibold 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-2xl text-2xl  text-gray-900">
                         Latest news & articles
                     </h1>
                 </div>
                 <div className="flex items-center 2xl:space-x-16 xl:space-x-12 md:space-x-8">
-                    <div className="2xl:w-[680px] xl:w-[520px] lg:w-[450px] hidden md:block w-[240px] border-b-2 border-gray-200"></div>
+                    <div className="2xl:w-[580px] xl:w-[520px] lg:w-[450px] hidden md:block w-[240px] border-b-2 border-gray-200"></div>
                     <div className="flex items-center">
-                        <button className='bg-[#0989FF] hover:bg-gray-900 transition-all duration-500 rounded-md md:px-[15px] px-[10px] md:py-[9px] py-[7px] text-base font-semibold text-gray-50 flex items-center justify-center space-x-0.5'>
+                        <button className='bg-[#0989FF] hover:bg-gray-900 transition-all duration-500 rounded-md md:px-[15px] px-[10px] md:py-[9px] py-[7px] text-base font-semibold text-gray-50 flex items-center justify-center space-x-0.5 select-none'>
                             <p>View All Blog</p>
                             <IoArrowForwardSharp className='text-xl'/>
                         </button>

@@ -23,14 +23,14 @@ function SliderCards2({ Products }) {
               <div>
                   <h1 className="font-semibold 2xl:text-4xl xl:text-3xl lg:text-2xl text-2xl text-gray-900">New Arrivals</h1>
               </div>
-              <div className="flex md:flex-row flex-col items-center lg:space-x-10 space-x-6">
-                  <div className="2xl:w-[680px] xl:w-[600px] lg:w-[500px] md:w-[350px] border-b-2 border-gray-100 md:block hidden"></div>
+              <div className="flex md:flex-row flex-col items-center lg:space-x-16 space-x-6">
+                  <div className="2xl:w-[700px] xl:w-[600px] lg:w-[500px] md:w-[350px] border-b-2 border-gray-100 md:block hidden"></div>
                   <div className="flex items-center space-x-2.5">
-                      <button className='custom-prev flex items-center group hover:border-white justify-center focus:outline-none md:p-3 p-2.5 rounded-full border border-gray-300 hover:bg-[#0989FF] transition-all duration-500'>
+                      <button className='custom-prev flex items-center group hover:border-white justify-center focus:outline-none outline-none md:p-3 p-2.5 rounded-full border border-gray-300 hover:bg-[#0989FF] transition-all duration-500'>
                           <SlArrowLeft className='text-base text-gray-400 group-hover:text-white transition-all duration-500 -translate-x-0.5'/>
                       </button>
 
-                      <button className='custom-next hover:bg-[#0989FF] transition-all group hover:border-white duration-500  flex items-center justify-center focus:outline-none md:p-3 p-2.5 rounded-full border border-gray-300'>
+                      <button className='custom-next hover:bg-[#0989FF] transition-all group hover:border-white duration-500  flex items-center justify-center focus:outline-none outline-none md:p-3 p-2.5 rounded-full border border-gray-300'>
                           <SlArrowRight className='text-base text-gray-400 translate-x-0.5 group-hover:text-white transition-all duration-500'/>
                       </button>
                   </div>
@@ -123,10 +123,10 @@ function SliderCards2({ Products }) {
 
                   <div>
                     {e.discount <= 0 ?
-                      <div className='text-[#0989FF] font-semibold'>${e.price}</div> :
+                      <div className='text-[#0989FF] font-semibold'>${e.price.toFixed(2)}</div> :
                       <div className='flex items-center space-x-1'>
                         <div className='text-xs font-semibold text-gray-600 line-through'>${e.price}</div>
-                        <div className='text-[#0989FF] font-semibold'>${e.price - e.discount}</div>
+                        <div className='text-[#0989FF] font-semibold'>${(e.price - e.discount).toFixed(2)}</div>
                       </div>
                     }
                   </div>

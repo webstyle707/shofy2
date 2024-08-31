@@ -14,7 +14,7 @@ function Categoriescard() {
                         </div>
                     </div>
                     <div className=' text-center'>
-                        <h1 className='text-lg font-semibold flex justify-center items-center'>
+                        <h1 className='lg:text-lg font-semibold flex justify-center items-center'>
                             <button className='focus:outline-none hover:text-[#0989FF] transition-all duration-300 cursor-pointer'>
                               {e.name}
                             </button>

@@ -193,22 +193,22 @@ function Header() {
                     <DropdownCategories dropdown={dropdown}/>
                 </div>
                 <div className='flex items-center space-x-7 pl-8 text-sm font-semibold text-gray-800'>
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Home
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Shop
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Products
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Coupons
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Blog
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Contact
                   </Link>                   
                 </div>
@@ -254,7 +254,6 @@ function Header() {
         </div>
       </div>
     </div>
-
   )
 }
 

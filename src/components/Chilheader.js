@@ -25,22 +25,22 @@ function Chilheader() {
             </div>    
             
             <div className='w-[629px] flex items-center space-x-7 pl-4 text-sm font-semibold text-gray-800'>
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Home
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Shop
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Products
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Coupons
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Blog
                   </Link>                 
-                  <Link href={"/"}>
+                  <Link className='select-none' href={"/"}>
                      Contact
                   </Link>                   
             </div>

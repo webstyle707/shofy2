@@ -7,18 +7,18 @@ function ChildSmHeader() {
     <div>
         <div className='lg:hidden flex items-center justify-between  shadow shadow-gray-300 md:pl-8 md:pr-9 pl-3.5 pr-4 h-[65px]'>
           <div>
-              <div className='w-[135px] h-[135px] relative'>
-                  <Image
-                    className='w-full h-full'
-                    src="/Assets/logo.png"
-                    alt="Logo"
-                    fill
-                    sizes="(max-width: 768px) 100vw, 135px" 
-                    style={{ objectFit: 'contain' }} 
-                    priority
-                  />
-              </div>
+            <div className='w-[135px] h-[135px] relative'>
+                <Image
+                  className='w-full h-full'
+                  src="/Assets/logo.png"
+                  alt="Logo"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 135px" 
+                  style={{ objectFit: 'contain' }} 
+                  priority
+                />
             </div>
+          </div>
 
           <div className='bg-white'>
             <div className='flex items-center space-x-5'>

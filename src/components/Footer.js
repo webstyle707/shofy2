@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className='bg-[rgb(244,247,249)] pb-5 pt-2'>
       <div className="max-w-[1320px] mx-auto">
-        <div className='grid lg:grid-cols-4 md:grid-cols-2 2xl:gap-7 gap-4 py-16 2xl:px-0 xl:px-20 lg:px-10 md:pl-8 md:pr-9 px-4'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 2xl:gap-7 gap-4 py-16 2xl:pl-[9px] 2xl:pr-[12px] xl:px-20 lg:px-10 md:pl-8 md:pr-9 px-4'>
           <div className=' space-y-5'>
             <div className='w-[135px] h-[35px]'>
               <Image src={'/Assets/logo.png'} width={600} height={600} alt=''/>
@@ -174,7 +174,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className=' pb-4 2xl:px-0 xl:px-20 lg:px-10 md:pl-8 md:pr-9 px-4'>
+        <div className=' pb-4 2xl:pl-[9px] 2xl:pr-[12px] xl:px-20 lg:px-10 md:pl-8 md:pr-9 px-4'>
           <div className='border-t border-gray-300 pb-4'></div>
           <div className='flex md:flex-row flex-col space-y-4 md:space-y-0 items-center md:justify-between'>
             <p className='text-center md:text-start text-sm md:text-sm text-gray-500'>© 2024 All Rights Reserved | vue nuxt 3 Template by <Link href={'/'} className='w-0 text-nowrap text-[#0989FF] transition-all duration-300'>ThemePure.</Link></p>

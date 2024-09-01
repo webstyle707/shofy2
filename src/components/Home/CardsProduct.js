@@ -23,7 +23,9 @@ function CardsProduct() {
                 </button>
                 }
 
-                <Image className='w-full group-hover:scale-110 transition-all duration-500' src={`/Assets/products/${e.photo}`} width={600} height={600} alt='' />
+                <Link href={`/product-details/${e.id}`}>
+                    <Image className='w-full group-hover:scale-110 transition-all duration-500' src={`/Assets/products/${e.photo}`} width={600} height={600} alt='' />
+                </Link>
 
                 <div className='bg-white shadow absolute bottom-6 group-hover:right-6 transition-all duration-500 -right-20 text-[20px] text-gray-800 border *:p-2.5 px-[0.5px] rounded'>
                   <div className='border-b'>
@@ -46,10 +48,12 @@ function CardsProduct() {
 
               <div className=' space-y-1 pl-6 pt-4 pb-6'>
                 <div>
-                    <Link href="/" className='text-xs font-semibold text-gray-800 hover:text-[#0989FF] transition-all duration-300 cursor-pointer'>{e.categoryname}</Link>
+                    <Link href="/product-details/${e.id}" className='text-xs font-semibold text-gray-800 hover:text-[#0989FF] transition-all duration-300 cursor-pointer'>
+                      {e.categoryname}
+                    </Link>
                 </div>
                 <div>
-                  <Link href="/" className='font-semibold hover:text-[#0989FF] transition-all duration-300 cursor-pointer'>{e.name}</Link>
+                  <Link href={`/product-details/${e.id}`} className='font-semibold hover:text-[#0989FF] transition-all duration-300 cursor-pointer'>{e.name}</Link>
                 </div>
                 <div className='flex items-center space-x-1.5 pt-1'>
                   <div className='flex items-center space-x-1 text-[#FFB21D]'>

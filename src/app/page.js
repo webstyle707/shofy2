@@ -3,6 +3,7 @@ import { useState,useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Products } from "@/data/Products";
+import Header from "@/components/Header";
 import Slider from "@/components/Home/Slider";
 import Categoriescard from "@/components/Home/Categoriescard";
 import Services from "@/components/Home/Services";
@@ -17,6 +18,7 @@ import Discount_Featured_selling from "@/components/Home/Discount_Featured_selli
 import LatestNewsandArticles from "@/components/Home/LatestNewsandArticles";
 import Instagram from "@/components/Home/Instagram";
 import Footerhome from "@/components/Home/Footerhome";
+
 
 export default function Home() {
   const [ishover,sethover] = useState(false)
@@ -73,6 +75,10 @@ export default function Home() {
   }, [Products]);
   return (
    <div className="">
+     <div>
+      <Header/>
+     </div>
+
      <div>
        <Slider/>
      </div>

@@ -1,6 +1,7 @@
+import { v4 as uuidv4 } from 'uuid';
 export const Products =[
     {
-        id:"1",
+        id:uuidv4(),
         photo:"headphone-1.png",
         photodetails:["headphone-1.png","headphone-2.png","headphone-3.png","headphone-4.png"],
         name:"Headphones Wireless",
@@ -15,7 +16,7 @@ export const Products =[
     },
 
     {
-        id:"2",
+        id:uuidv4(),
         photo:"headphone-5.png",
         photodetails:["headphone-5.png","headphone-6.png","headphone-7.png"],
         name:"Gaming Headphone",
@@ -30,7 +31,7 @@ export const Products =[
     },
 
     {
-        id:"3",
+        id:uuidv4(),
         photo:"headphone-8.png",
         photodetails:["headphone-8.png","headphone-9.png","headphone-10.png"],
         name:"Headphone with Mic",
@@ -45,7 +46,7 @@ export const Products =[
     },
 
     {
-        id:"4",
+        id:uuidv4(),
         photo:"mobile-1.png",
         photodetails:["mobile-1.png","mobile-2 (1).png","mobile-3.png","mobile-4.png"],
         name:"Galaxy Android Tablet",
@@ -60,7 +61,7 @@ export const Products =[
     },
 
     {
-        id:"5",
+        id:uuidv4(),
         photo:"mobile-5.png",
         photodetails:["mobile-5.png","mobile-6.png","mobile-7.png","mobile-8.png"],
         name:"iPhone 14 Pro",
@@ -75,7 +76,7 @@ export const Products =[
     },
 
     {
-        id:"6",
+        id:uuidv4(),
         photo:"ipad-1.png",
         photodetails:["ipad-1.png","ipad-2.png","ipad-3.png"],
         name:"iPhone 14 Pro",
@@ -91,7 +92,7 @@ export const Products =[
 
 
     {
-        id:"7",
+        id:uuidv4(),
         photo:"cpu-1.png",
         photodetails:["cpu-1.png","cpu-2.png","cpu-3.png","cpu-4.png"],
         name:"DeepCool Air Cooler",
@@ -106,7 +107,7 @@ export const Products =[
     },
 
     {
-        id:"8",
+        id:uuidv4(),
         photo:"cpu-5.png",
         photodetails:["cpu-5.png","cpu-6.png","cpu-7.png","cpu-8.png"],
         name:"Antec Air Cooler",
@@ -121,7 +122,7 @@ export const Products =[
     },
 
     {
-        id:"9",
+        id:uuidv4(),
         photo:"watch-1.png",
         photodetails:["watch-1.png","watch-1.png","watch-1.png"],
         name:"Apple Watch Sport Band",
@@ -134,8 +135,9 @@ export const Products =[
         typeproduct:"",
         status:1
     },
+
     {
-        id:"10",
+        id:uuidv4(),
         photo:"watch-5.png",
         photodetails:["watch-5.png","watch-5.png","watch-5.png"],
         name:"Sony Smart Watch",
@@ -149,7 +151,7 @@ export const Products =[
         status:1
     },
     {
-        id:"11",
+        id:uuidv4(),
         photo:"watch-9.png",
         photodetails:["watch-9.png","watch-9.png","watch-9.png"],
         name:"Sony Smart Watch",
@@ -162,8 +164,9 @@ export const Products =[
         typeproduct:"",
         status:1
     },
+
     {
-        id:"12",
+        id:uuidv4(),
         photo:"blutooth-1.png",
         photodetails:["blutooth-1.png","blutooth-1.png","blutooth-1.png"],
         name:"Lenovo Wireless Bluetooth",
@@ -176,8 +179,9 @@ export const Products =[
         typeproduct:"",
         status:1
     },
+    
     {
-        id:"13",
+        id:uuidv4(),
         photo:"blutooth-4.png",
         photodetails:["blutooth-4.png","blutooth-4.png","blutooth-4.png",],
         name:"Lenovo Wireless Bluetooth",

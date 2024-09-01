@@ -13,7 +13,7 @@ function Page({params}) {
     setCard(card)
   }
   const handleRelatedProducts = ()=>{
-    const relatedProducts = Products.filter(e=>e.categoryname === Card[0]?.categoryname);
+    const relatedProducts = Products.filter(e=>e.categoryname === Card[0]?.categoryname && e.id !== Card[0]?.id);
     setRelatedProducts(relatedProducts)
   }
   useEffect(()=>{
